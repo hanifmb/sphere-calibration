@@ -30,7 +30,7 @@ Running `est_center_img.py` and `est_center_pcl.py` directly are only useful for
 ## Notes
 Estimated sphere centers from images and point clouds are derived from the "minimum" RANSAC solutions. For more accurate center estimation, perform local optimization using the inlier points.
 
-Automatic ellipse detection using a circle is not robust. Strict parameter tuning may be required. Better methods exist, such as this. 
+Automatic ellipse detection using a circle is not robust. Strict parameter tuning may be required. Better methods exist, such as [this](https://github.com/AlanLuSun/High-quality-ellipse-detection). 
 
 ## References
 T. Tóth, Z. Pusztai and L. Hajder, "Automatic LiDAR-Camera Calibration of Extrinsic Parameters Using a Spherical Target," 2020 IEEE International Conference on Robotics and Automation (ICRA), Paris, France, 2020, pp. 8580-8586, doi: 10.1109/ICRA40945.2020.9197316.
